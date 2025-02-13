@@ -9,18 +9,18 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 alias git='LANG=en_GB git'
 
-# Function to add ancestor bin directories to PATH
-function update_path_to_root() {
-    local dir="$PWD"
-    while [[ "$dir" != "/" ]]; do
-        if [[ -d "$dir/bin" ]]; then
-            PATH="$dir/bin:$PATH"
-        fi
-        dir="$(dirname "$dir")"
-    done
-}
-# Alias to manually update the path when needed
-alias refresh_path='update_path_to_root'
+# # Function to add ancestor bin directories to PATH
+# function update_path_to_root() {
+#     local dir="$PWD"
+#     while [[ "$dir" != "/" ]]; do
+#         if [[ -d "$dir/bin" ]]; then
+#             PATH="$dir/bin:$PATH"
+#         fi
+#         dir="$(dirname "$dir")"
+#     done
+# }
+# # Alias to manually update the path when needed
+# alias refresh_path='update_path_to_root'
 
 alias zshconfig="hx ~/.zshrc"
 alias zshsource="source ~/.zshrc"
