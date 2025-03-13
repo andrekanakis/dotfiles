@@ -9,6 +9,10 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 alias git='LANG=en_GB git'
 
+# asdf setup
+. "$(brew --prefix asdf)/libexec/asdf.sh"
+export PATH="$HOME/.asdf/shims:$PATH"
+
 # # Function to add ancestor bin directories to PATH
 # function update_path_to_root() {
 #     local dir="$PWD"
