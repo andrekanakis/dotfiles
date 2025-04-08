@@ -69,6 +69,8 @@ symbol = " "
 
 [lua]
 symbol = " "
+detect_folders = ["/lua"]
+detect_files = ["app.lua", "init.lua", "main.lua"]
 
 [memory_usage]
 symbol = "󰍛 "
