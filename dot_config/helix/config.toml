@@ -6,7 +6,8 @@
 # ██║  ██║███████╗███████╗██║██╔╝ ██╗
 # ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝╚═╝  ╚═╝
                                                                                  
-theme = "catppuccin_frappe"
+# theme = "catppuccin_frappe"
+theme = "github_dark_dimmed"
 
 [editor]
 line-number = "relative"
