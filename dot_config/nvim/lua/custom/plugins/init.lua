@@ -5,6 +5,7 @@
 return {
 	-- { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
 	{ "projekt0n/github-nvim-theme", name = "github-dark-dimmed" },
+
 	{
 		"folke/flash.nvim",
 		event = "VeryLazy",
@@ -15,5 +16,15 @@ return {
 			{ "s", mode = { "n", "x", "o" }, function() require("flash").jump() end, desc = "Flash" },
 			{ "S", mode = { "n", "x", "o" }, function() require("flash").treesitter() end, desc = "Flash Treesitter" },
 		},
+	},
+
+	{
+		"s1n7ax/nvim-window-picker",
+		name = "window-picker",
+		event = "VeryLazy",
+		version = "2.*",
+		config = function()
+			require("window-picker").setup()
+		end,
 	},
 }
