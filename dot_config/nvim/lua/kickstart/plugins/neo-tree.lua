@@ -17,7 +17,7 @@ return {
 		preview = {},
 		filesystem = {
 			window = {
-				width = 35,
+				width = 30,
 				mappings = {
 					["\\"] = "close_window",
 				},
