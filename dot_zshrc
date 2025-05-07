@@ -36,6 +36,8 @@ alias zshsource="source ~/.zshrc"
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
 
 alias py="python3"
+alias n="nvim"
+alias nv="nvim"
 
 
 eval "$(starship init zsh)"
