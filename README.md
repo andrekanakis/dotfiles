@@ -14,3 +14,6 @@ Don't forget to change editor in `chezmoi`.
 [edit]
     command = "nvim"
 ```
+
+# Credit
+Credit to @johanwulf for being an awesome inspiration for me <3
