@@ -1,7 +1,3 @@
-[user]
-    name = André Kanakis
-    email = andre@kanak.is
-
 [commit]
     template = ./template
 
@@ -37,6 +33,3 @@
 # URLs
 [url "git@github.com:"]
     insteadOf = "gh:"
-
-[url "git@github.com:andrekanakis/"]
-    insteadOf = "ak:"
